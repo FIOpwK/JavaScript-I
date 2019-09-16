@@ -82,13 +82,13 @@ console.log(`Car ${inventory[32].id} is a ${inventory[32].car_year} ${inventory[
 
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory? 'Lincoln'  Log the make and model into the console.
 let lastCar = 0;
-console.log(inventory[inventory.length - 1]);
+console.log(inventory[inventory.length - 1].car_make, inventory[inventory.length - 1].car_model);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
-let carModelsSorted = [].sort();
-console.log(carModelsSorted);
+let carModelsSorted = []
+console.log();
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
