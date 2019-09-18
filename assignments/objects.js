@@ -4,7 +4,7 @@
 // HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
 
 // Example format of an intern object: 1, examples@you.edu, Example, F
-const dataBase = {
+
 
 const example = {
   id: 0,
