@@ -128,4 +128,4 @@ inventory.forEach(car => {
   }
 })
 
-console.log(JSON.stringify(BMWAndAudi));
+console.log(JSON.stringify({BMWAndAudi}));
