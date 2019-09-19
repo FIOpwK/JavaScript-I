@@ -124,7 +124,7 @@ let BMWAndAudi = [];
 inventory.forEach(car => {
   if (car.car_make === 'Audi' || car.car_make === 'BMW') {
     
-    return BMWAndAudi.push(car);
+   BMWAndAudi.push(car);
   }
 })
 
