@@ -14,50 +14,51 @@ const example = {
 }
 
 // Write your intern objects here:
-const interns {
+const interns = {
 
-	const intern1 = {
+	
+
+	 intern1 = {
 		id: 1,
 		email: 'mmelloy0@psu.edu',
-		"first name": 'Mitzi',
+		first_name: 'Mitzi',
 		gender: 'F',
 		},
 
-	const intern2 = {
+	 intern2 = {
 		id: 2,
 		email: 'kdiben1@tinypic.com',
-		"first name": 'Kennan',
-		gender 'M', },
-
-		speak = () => { return `Hello, my Name is  ${intern2["first name"]}!` }
-		},
-
-	const intern3 {
-		id: 3,
-		email: 'kmummery2@wikimedia.org',
-		"first name": 'Keven',
+		first_name: 'Kennan',
 		gender: 'M',
-		},
 
-	const intern4 = {
+		speak = () => {`Hello, my Name is  ${intern2["first name"]}!` }
+		}
+	
+
+
+		intern3 = {
+			id: 3,
+			email: 'kmummery2@wikimedia.org',
+			first_name: 'Keven',
+			gender: 'M',
+			},
+
+	intern4 = {
 		id: 4,
 		email: 'gmartinson3@illinois.edu',
-		"first name": 'Gannie',
+		first_name: 'Gannie',
 		gender: 'M',
 		},
 
 
-	const intern5 = {
+	intern5 = {
 		id: 5,
 		email: 'adaine5@samsung.com',
 		first_name: 'Antonietta',
-		gender: 'F'
-		},
-		
-		product = (param1, param2) => { return param1 * param2}
+		gender: 'F',
 
-	};
-
+		}
+	]
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
@@ -92,7 +93,7 @@ console.log(intern4.product(3,4));
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+//const parent = {};
 
 // Log the parent object's name
 
